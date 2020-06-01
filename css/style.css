@@ -1,0 +1,40 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: teal;
+}
+
+h1 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homework-list {
+    list-style: none;
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 0px;
+}
+.homework-link {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: royalblue;
+    padding-left: 5px;
+}
+.homework-link:hover,
+.homework-link:focus {
+    color: orangered;
+}
