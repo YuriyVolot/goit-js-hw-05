@@ -10,7 +10,7 @@
 
 class User {
     constructor(obj) {
-        this.name = obj.mame;
+        this.name = obj.name;
         this.age = obj.age;
         this.followers = obj.followers;
     }
